@@ -1,0 +1,243 @@
+.hero.section-bg {
+	background-image: url(../img/purple-mt.jpeg);
+}
+
+.redIco {
+	color: #2c8bd0;
+}
+
+.mt-3 {
+	margin-top: 20px;
+}
+
+#gradLogo::before {
+	display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+	font-size: 3.8rem;
+	content: "FR\f2dcSTHACK";
+	background: -webkit-linear-gradient(left, #35aeff, #ff2ed2);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navNotTop .navbar-brand .logo .logo-img {
+  display: none;
+}
+
+.navTop .navbar-brand .logo .logo-alt-img {
+  display: none;
+}
+
+/* .navTop {
+
+}
+
+.navNotTop {
+
+} */
+
+.navTop {
+	padding-top : 2%;
+}
+
+.navNotTop {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #FFF !important;
+  -webkit-box-shadow: 0px 0px 3px #0003;
+  box-shadow: 0px 0px 3px #0003;
+  border-bottom: none;
+  padding-top: 1%;
+  transition: all 0.6s;
+}
+
+#header.navNotTop .main-nav li a {
+  color: #0b0f28;
+}
+
+#header.navNotTop .navbar-toggle {
+  color: #0b0f28 !important;
+}
+
+#home > div.home-wrapper h4  i {
+	padding-left: 20px;
+}
+
+#home div.home-wrapper .home-content img {
+	width: 70%;
+}
+
+.navTop ul.main-nav {
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	font-weight: 600;
+}
+
+.navNotTop {
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	font-weight: 600;
+}
+
+
+#footer .contact-social a {
+	height: 3em;
+}
+
+#footer .contact-social img {
+	height: 2em;
+	margin-bottom: 15px;
+}
+
+.contact img {
+	height: 4em;
+}
+
+.track {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.track img {
+	height: 10em;
+}
+
+.tracks .col-sm-4 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.centered-code {
+	text-align: center;
+}
+
+.sponbox {
+	margin-top: 100px;
+}
+
+.sponRow {
+	display: flex;
+	justify-content: center;
+}
+
+.sponFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sponFlex .sponsor {
+	margin: 40px;
+}
+
+
+/* devfolio */
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
+}
+
+.center-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gradient-border {
+	padding: 5px;
+	/* background: linear-gradient(to right, #f56aa7, #3ad8f6); */
+	background: deepskyblue;
+	border-radius: 8px;
+}
+
+.gradient-border > .track {
+	background-color: white;
+	border-radius: inherit;
+	height: 250px;
+}
+
+.gradient-border .mt-3 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.streak-prize {
+	/* background: rgb(240,106,167);
+	background: linear-gradient(90deg, 
+			rgba(240,106,167,0.8687850140056023) 0%, 
+			rgba(255,255,255,0) 48%, 
+			rgba(255,255,255,1) 52%, 
+			rgba(0,212,255,0.8827906162464986) 100%); */
+	color: white;
+	background: deepskyblue;
+	width: 100%;
+}
+
+.track .img {
+	height: 10em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.track .img img {
+	width: 90%;
+	height: auto;
+}
+
+.img-adjust {
+	max-height: 10em;
+	max-width: 100%;
+	width: auto !important;
+}
+
+@media only screen and (max-width : 1023px) and (min-width : 425px) {
+	.extra-wide-adjust {
+		height: 80% !important;
+		width: auto !important;
+	}
+}
+
+#about .track {
+	margin-top: 0em;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
